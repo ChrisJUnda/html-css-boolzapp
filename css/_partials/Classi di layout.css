@@ -13,6 +13,12 @@ body{
     background-color: lightblue;
 }
 
+header{
+    background-color: #EAEAEA;
+    height: 70px;
+    flex-shrink: 0;
+}
+
 .sidebar{
     display: none;
     background-color: chocolate;
@@ -21,6 +27,17 @@ body{
 .content{
     background-color: darkviolet;
     flex-grow: 1;
+}
+
+.conversations{
+    height: calc(100% - 140px);
+    overflow-y: auto;
+}
+
+footer.messaggi {
+    background-color: red;
+    height: 70px;
+    flex-shrink: 0;
 }
 
 

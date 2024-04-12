@@ -6,8 +6,25 @@
     }
 
     .sidebar{
-        display: block;
+        display: flex;
+        flex-direction: column;
         flex-shrink: 0;
+        overflow: hidden;
+    }
+
+
+
+    .notifiche{
+        display: none;
+    }
+
+    .ricerca{
+        display: none;
+    }
+
+    .chat{
+        background-color: lightgreen;
+        overflow-y: auto;
     }
 
 }

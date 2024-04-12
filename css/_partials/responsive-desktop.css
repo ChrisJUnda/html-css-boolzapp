@@ -15,6 +15,15 @@
     .sidebar{
         width: 350px;
     }
+    .notifiche{
+        background-color: #8FDAFC;
+        display: block;
+    }
+
+    .ricerca{
+        background-color: yellow;
+        display: block;
+    }
     
 }
 /*Fine Responsive Desktop*/
