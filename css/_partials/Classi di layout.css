@@ -17,6 +17,45 @@ header{
     background-color: #EAEAEA;
     height: 70px;
     flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-menu{
+    color: #B1B1B1;
+}
+
+
+.bell{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 50%;
+
+}
+
+.io{
+    width: 50px;
+    height: 50px;
+}
+.io img{
+    width: 100%;
+    border-radius: 50%;
+    margin-left: 10px;
+
+}
+
+.notifiche{
+    
+}
+
+i{
+    width: 30px;
 }
 
 .sidebar{
@@ -29,15 +68,37 @@ header{
     flex-grow: 1;
 }
 
+
+
 .conversations{
     height: calc(100% - 140px);
     overflow-y: auto;
 }
 
+
 footer.messaggi {
     background-color: red;
     height: 70px;
     flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.smile{
+    color: #6B7376;
+    margin-left: 10px;
+}
+
+.testo{
+}
+
+textarea{
+    width: 100%;
+}
+.audio{
+    color: #6B7376;
 }
 
 

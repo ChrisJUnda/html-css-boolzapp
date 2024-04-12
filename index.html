@@ -6,6 +6,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Boolzapp</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
@@ -13,11 +14,25 @@
     <div id="app" class="container">
         <div class="sidebar">
             <header>
-                Header
+                <div class="io">
+                    <img src="./img/avatar_io.jpg" alt="">
+                </div>
+                <div class="header-menu">
+                    <i class="fa-solid fa-circle-notch carica"></i>
+                    <i class="fa-solid fa-message scrivi"></i>
+                    <i class="fa-solid fa-ellipsis-vertical menu"></i>
+
+                </div>
             </header>
             <div class="notifiche">
-                 notifiche
+                <div class="bell margin-left-10 margin-top-10 margin-bottom-10">
+                    <i class="fa-solid fa-bell-slash fa-xl "></i>
                 </div>
+                <div>
+                    <strong>Ricevi notifiche di nuovi messaggi</strong>
+                    <p> <u> Attiva notifiche desktop</u> </p>
+                </div>  
+            </div>
             <div class="ricerca">
                 ricerca
             </div>
@@ -63,7 +78,19 @@
         </div>
         <div class="content">
             <header>
-                header
+                <div class="io">
+                    <img src="./img/avatar_1.jpg" alt="">
+                </div>
+                <div>
+                    <strong>Michele</strong>
+                    <p>Ultimo accesso effettuato alle 14:24</p>
+                </div>
+                <div class="header-menu">
+                    <i class="fa-solid fa-circle-notch carica"></i>
+                    <i class="fa-solid fa-message scrivi"></i>
+                    <i class="fa-solid fa-ellipsis-vertical menu"></i>
+
+                </div>
             </header>
             <div class="conversations">
                 <ul>
@@ -97,6 +124,15 @@
                 </ul>
             </div>
             <footer class="messaggi">
+                <div class="smile io">
+                    <i class="fa-regular fa-face-smile fa-xl"></i>
+                </div>
+                <div class="testo">
+                    <input type="text" name="" id="" value="Scrivi un messaggio">
+                </div>
+                <div class="audio">
+                    <i class="fa-solid fa-microphone fa-xl"></i>
+                </div>
                 
             </footer>
         </div>
