@@ -1,7 +1,28 @@
 /*Inizio Classi di Layout*/
 
 body{
-    background-color: pink;
+    background-color: yellow;
+    font-family: lato;
+    height: 100vh;
+    display: flex;
 }
+
+.container{
+    width: 100%;
+    display: flex;
+    background-color: lightblue;
+}
+
+.sidebar{
+    display: none;
+    background-color: chocolate;
+}
+
+.content{
+    background-color: darkviolet;
+    flex-grow: 1;
+}
+
+
 
 /*Fine Classi di Layout*/
