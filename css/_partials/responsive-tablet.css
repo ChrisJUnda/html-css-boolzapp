@@ -2,7 +2,7 @@
 
 @media screen and (min-width: 576px) {
     body {
-        background-color: darkgray;
+    
     }
 
     .sidebar{
@@ -10,6 +10,28 @@
         flex-direction: column;
         flex-shrink: 0;
         overflow: hidden;
+    }
+
+    .sidebar .header-menu{
+        display: none;
+    }
+
+
+    header .utente{
+        display: none;
+    }
+
+    .chat li header .io{
+        display: flex;
+       justify-content: center;
+    }
+
+    .smile{
+        display: inline-block;
+    }
+
+    .audio{
+        display: inline-block;
     }
 
 
@@ -25,6 +47,16 @@
     .chat{
         background-color: lightgreen;
         overflow-y: auto;
+        max-height: 600px;
+    }
+
+    #chat-left{
+        margin-top: 40px;
+    
+    }
+
+    .header-menu i{
+        display: inline-block;
     }
 
 }

@@ -15,6 +15,23 @@
     .sidebar{
         width: 350px;
     }
+
+    .sidebar .header-menu{
+        display: block;
+    }
+
+    .smile{
+        display: inline-block;
+    }
+
+    .audio{
+        display: inline-block;
+    }
+
+
+    header .utente{
+        display: block;
+    }
     .notifiche{
         background-color: #8FDAFC;
         display: block;
@@ -22,6 +39,10 @@
 
     .ricerca{
         display: block;
+    }
+
+    .header-menu i{
+        display: inline-block;
     }
     
 }

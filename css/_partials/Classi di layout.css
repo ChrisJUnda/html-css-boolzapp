@@ -9,7 +9,6 @@ body{
 .container{
     width: 100%;
     display: flex;
-    background-color: lightblue;
 }
 
 header{
@@ -23,6 +22,10 @@ header{
 
 .header-menu{
     color: #B1B1B1;
+}
+
+.header-menu i{
+    display: none;
 }
 
 
@@ -80,7 +83,6 @@ i{
 
 .sidebar{
     display: none;
-    background-color: chocolate;
 }
 
 .content{
@@ -117,6 +119,7 @@ i{
 }
 
 
+
 .convesations-right-1{
     width: 60%;
 }
@@ -142,6 +145,7 @@ footer.messaggi {
     color: #6B7376;
     margin-left: 10px;
     width: 10%;
+    display: none;
 }
 
 .testo{
@@ -155,6 +159,7 @@ footer.messaggi {
 .audio{
     color: #6B7376;
     width: 10%;
+    display: none;
 }
 
 
