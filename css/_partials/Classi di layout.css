@@ -1,7 +1,6 @@
 /*Inizio Classi di Layout*/
 
 body{
-    background-color: yellow;
     font-family: lato;
     height: 100vh;
     display: flex;
@@ -14,7 +13,6 @@ body{
 }
 
 header{
-    background-color: #EAEAEA;
     height: 70px;
     flex-shrink: 0;
     display: flex;
@@ -28,30 +26,52 @@ header{
 }
 
 
-.bell{
-    width: 40px;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: white;
-    border-radius: 50%;
+.bell-content{
+    border: none;
 
 }
 
 .io{
     width: 50px;
     height: 50px;
+    border-radius: 50%;
 }
 .io img{
     width: 100%;
     border-radius: 50%;
     margin-left: 10px;
+}
+
+.io i{
 
 }
 
 .notifiche{
-    
+    display: flex;
+    flex-direction: row;
+
+}
+
+.ricerca{
+    display: flex;
+    flex-direction: row;
+}
+
+.container-ricerca{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.ricerca i{
+    width: 30%;
+}
+
+.ricerca input{
+    width: 70%;
 }
 
 i{
@@ -73,11 +93,43 @@ i{
 .conversations{
     height: calc(100% - 140px);
     overflow-y: auto;
+    background-image: url( ../../img/mine.jpg)
+}
+
+.conversations-lg{
+    max-width: 80%;
+    margin: 0 auto;
+    height: 100px;
+
+}
+
+.row{
+    display: flex;
+}
+
+.convesations-left{
+    width: 40%;
+
+}
+
+.convesations-right{
+    width: 60%;
 }
 
 
+.convesations-right-1{
+    width: 60%;
+}
+.convesations-left-1{
+    width: 40%;
+}
+
+
+
+
+
 footer.messaggi {
-    background-color: red;
+    background-color: #F3EEEB;
     height: 70px;
     flex-shrink: 0;
     display: flex;
@@ -89,16 +141,20 @@ footer.messaggi {
 .smile{
     color: #6B7376;
     margin-left: 10px;
+    width: 10%;
 }
 
 .testo{
+    width: 80%;
 }
 
-textarea{
-    width: 100%;
+.testo input {
+    border: none;
 }
+
 .audio{
     color: #6B7376;
+    width: 10%;
 }
 
 
