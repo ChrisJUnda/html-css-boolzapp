@@ -4,6 +4,11 @@ body{
     font-family: lato;
     height: 100vh;
     display: flex;
+    overflow: hidden;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to bottom, #009688 0px, #009688 15vh, #dddbd1 15vh, #d2dbdc 100% );
 }
 
 .container{
